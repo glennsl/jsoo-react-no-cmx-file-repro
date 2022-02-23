@@ -1,0 +1,5 @@
+(library
+ (name view)
+ (libraries jsoo-react.lib)
+ (preprocess
+  (pps jsoo-react.ppx)))
